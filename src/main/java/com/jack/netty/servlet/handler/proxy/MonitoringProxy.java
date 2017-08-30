@@ -15,17 +15,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.handler.proxy;
+package com.jack.netty.servlet.handler.proxy;
 
 import java.io.Serializable;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import com.wfj.netty.servlet.conf.Parameter;
-import com.wfj.netty.servlet.conf.Parameters;
-import com.wfj.netty.servlet.dto.Counter;
-import com.wfj.netty.servlet.handler.wrapper.JdbcWrapper;
+import com.jack.netty.servlet.conf.Parameter;
+import com.jack.netty.servlet.conf.Parameters;
+import com.jack.netty.servlet.dto.Counter;
+import com.jack.netty.servlet.handler.wrapper.JdbcWrapper;
 
 /**
  * Proxy de monitoring pour tout façade ayant une interface.

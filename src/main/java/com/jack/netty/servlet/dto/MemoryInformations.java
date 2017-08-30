@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.dto;
+package com.jack.netty.servlet.dto;
 
 import java.io.Serializable;
 import java.lang.management.GarbageCollectorMXBean;
@@ -34,10 +34,9 @@ import javax.management.JMException;
 import javax.management.MalformedObjectNameException;
 import javax.management.ObjectName;
 
+import com.jack.netty.servlet.util.I18N;
+import com.jack.netty.servlet.util.MBeans;
 import org.apache.commons.beanutils.BeanUtils;
-
-import com.wfj.netty.servlet.util.I18N;
-import com.wfj.netty.servlet.util.MBeans;
 
 /**
  * Informations systèmes sur la mémoire du serveur, sans code html de

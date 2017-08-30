@@ -5,7 +5,7 @@
  * @Create In 2016年3月25日 上午9:54:30
  * TODO
  */
-package com.wfj.netty.servlet.util;
+package com.jack.netty.servlet.util;
 
 import java.util.Iterator;
 import java.util.Set;
@@ -17,7 +17,7 @@ import javax.management.ObjectName;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.wfj.netty.servlet.conf.EnvPropertyConfig;
+import com.jack.netty.servlet.conf.EnvPropertyConfig;
 
 /**
  * @Class Name TomcatInfoUtil

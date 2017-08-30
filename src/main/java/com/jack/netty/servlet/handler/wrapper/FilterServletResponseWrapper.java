@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.handler.wrapper;
+package com.jack.netty.servlet.handler.wrapper;
 
 import java.io.IOException;
 import java.io.OutputStreamWriter;

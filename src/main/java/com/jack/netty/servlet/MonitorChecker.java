@@ -5,21 +5,21 @@
  * @Create In 2015年8月25日 上午9:49:49
  * TODO
  */
-package com.wfj.netty.servlet;
+package com.jack.netty.servlet;
 
 import javax.servlet.ServletContext;
 
+import com.jack.netty.servlet.conf.EnvPropertyConfig;
+import com.jack.netty.servlet.handler.AppMonitor;
+import com.jack.netty.servlet.infc.Health;
 import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.ZooKeeper;
 import org.apache.zookeeper.data.Stat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.wfj.netty.servlet.conf.EnvPropertyConfig;
-import com.wfj.netty.servlet.conf.SystemPropertyConfig;
-import com.wfj.netty.servlet.handler.AppMonitor;
-import com.wfj.netty.servlet.handler.factory.ZKConnectManager;
-import com.wfj.netty.servlet.infc.Health;
+import com.jack.netty.servlet.conf.SystemPropertyConfig;
+import com.jack.netty.servlet.handler.factory.ZKConnectManager;
 
 /**
  * 服务器心跳组件

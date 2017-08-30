@@ -5,7 +5,7 @@
  * @Create In 2016年7月27日 上午10:39:41
  * TODO
  */
-package com.wfj.netty.servlet.dto;
+package com.jack.netty.servlet.dto;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

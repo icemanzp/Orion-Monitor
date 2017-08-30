@@ -5,15 +5,15 @@
  * @Create In 2015年8月25日 上午5:12:24
  * TODO
  */
-package com.wfj.netty.servlet.conf;
+package com.jack.netty.servlet.conf;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.text.MessageFormat;
 import java.util.Properties;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * @Class Name SystemPropertyConfig
@@ -26,7 +26,7 @@ public class SystemPropertyConfig{
 	
 	private static Properties pc = null;
 	
-	private static final String PROPERTY_CONTEXT_PATH_CUSTOMER = "/wfj-netty.properties";
+	private static final String PROPERTY_CONTEXT_PATH_CUSTOMER = "/orion-monitor.properties";
 	
 	public static void init(){
 		if(pc != null){

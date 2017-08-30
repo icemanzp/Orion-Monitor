@@ -5,7 +5,7 @@
  * @Create In 2015年8月26日 下午7:03:40
  * TODO
  */
-package com.wfj.netty.servlet.dto;
+package com.jack.netty.servlet.dto;
 
 
 /**

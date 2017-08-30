@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.dto;
+package com.jack.netty.servlet.dto;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -31,12 +31,12 @@ import javax.management.MalformedObjectNameException;
 import javax.management.ObjectName;
 import javax.management.QueryExp;
 
+import com.jack.netty.servlet.util.MBeans;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.wfj.netty.servlet.conf.Constant;
-import com.wfj.netty.servlet.conf.EnvPropertyConfig;
-import com.wfj.netty.servlet.util.MBeans;
+import com.jack.netty.servlet.conf.Constant;
+import com.jack.netty.servlet.conf.EnvPropertyConfig;
 
 /**
  * 检查Tomcat 信息

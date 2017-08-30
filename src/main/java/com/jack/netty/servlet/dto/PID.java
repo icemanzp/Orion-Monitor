@@ -1,4 +1,4 @@
-package com.wfj.netty.servlet.dto;
+package com.jack.netty.servlet.dto;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -11,7 +11,7 @@ import java.lang.management.RuntimeMXBean;
 import java.util.Locale;
 import java.util.StringTokenizer;
 
-import com.wfj.netty.servlet.util.TransportFormat;
+import com.jack.netty.servlet.util.TransportFormat;
 
 /**
  * PID du process java.

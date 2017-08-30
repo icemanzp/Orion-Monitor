@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.handler.wrapper;
+package com.jack.netty.servlet.handler.wrapper;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -44,8 +44,8 @@ import javax.sql.DataSource;
 import org.apache.tomcat.dbcp.dbcp.BasicDataSource;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.wfj.netty.servlet.conf.Parameter;
-import com.wfj.netty.servlet.conf.Parameters;
+import com.jack.netty.servlet.conf.Parameter;
+import com.jack.netty.servlet.conf.Parameters;
 
 /**
  * Classe utilitaire pour JdbcWrapper.

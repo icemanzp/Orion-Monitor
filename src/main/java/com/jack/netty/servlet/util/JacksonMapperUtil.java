@@ -5,7 +5,7 @@
  * @Create In 2015年8月27日 下午7:57:58
  * TODO
  */
-package com.wfj.netty.servlet.util;
+package com.jack.netty.servlet.util;
 
 import java.io.IOException;
 

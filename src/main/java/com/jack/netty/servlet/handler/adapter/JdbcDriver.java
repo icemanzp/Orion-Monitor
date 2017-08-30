@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.handler.adapter;
+package com.jack.netty.servlet.handler.adapter;
 
 import java.sql.Connection;
 import java.sql.Driver;
@@ -29,9 +29,9 @@ import java.util.Properties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.wfj.netty.servlet.conf.Parameters;
-import com.wfj.netty.servlet.filter.Monitor;
-import com.wfj.netty.servlet.handler.wrapper.JdbcWrapper;
+import com.jack.netty.servlet.conf.Parameters;
+import com.jack.netty.servlet.filter.Monitor;
+import com.jack.netty.servlet.handler.wrapper.JdbcWrapper;
 
 
 /**

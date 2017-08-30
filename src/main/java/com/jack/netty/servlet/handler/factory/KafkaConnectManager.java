@@ -5,11 +5,13 @@
  * @Create In 2016年4月6日 下午3:06:21
  * TODO
  */
-package com.wfj.netty.servlet.handler.factory;
+package com.jack.netty.servlet.handler.factory;
 
 import java.util.Properties;
 import java.util.concurrent.Future;
 
+import com.jack.netty.servlet.conf.EnvPropertyConfig;
+import com.jack.netty.servlet.conf.SystemPropertyConfig;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
@@ -17,9 +19,7 @@ import org.apache.kafka.clients.producer.RecordMetadata;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.wfj.netty.servlet.conf.Constant;
-import com.wfj.netty.servlet.conf.EnvPropertyConfig;
-import com.wfj.netty.servlet.conf.SystemPropertyConfig;
+import com.jack.netty.servlet.conf.Constant;
 
 /**
  * kafka 工具类

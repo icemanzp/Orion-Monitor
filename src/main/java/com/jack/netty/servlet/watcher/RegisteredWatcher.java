@@ -5,16 +5,16 @@
  * @Create In 2015年8月25日 上午10:05:57
  * TODO
  */
-package com.wfj.netty.servlet.watcher;
+package com.jack.netty.servlet.watcher;
 
+import com.jack.netty.servlet.infc.Health;
 import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.Watcher.Event.KeeperState;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.wfj.netty.servlet.handler.factory.ZKConnectManager;
-import com.wfj.netty.servlet.infc.Health;
+import com.jack.netty.servlet.handler.factory.ZKConnectManager;
 
 /**
  * @Class Name RegisteredWatcher

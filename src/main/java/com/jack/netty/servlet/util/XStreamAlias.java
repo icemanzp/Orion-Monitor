@@ -15,18 +15,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.util; // NOPMD
+package com.jack.netty.servlet.util; // NOPMD
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.wfj.netty.servlet.dto.ConnectionInformations;
-import com.wfj.netty.servlet.dto.Counter;
-import com.wfj.netty.servlet.dto.CounterError;
-import com.wfj.netty.servlet.dto.CounterRequest;
-import com.wfj.netty.servlet.dto.CounterRequestContext;
-import com.wfj.netty.servlet.dto.DatabaseInformations;
-import com.wfj.netty.servlet.dto.ThreadInformations;
+import com.jack.netty.servlet.dto.ThreadInformations;
+import com.jack.netty.servlet.dto.ConnectionInformations;
+import com.jack.netty.servlet.dto.Counter;
+import com.jack.netty.servlet.dto.CounterError;
+import com.jack.netty.servlet.dto.CounterRequest;
+import com.jack.netty.servlet.dto.CounterRequestContext;
+import com.jack.netty.servlet.dto.DatabaseInformations;
 
 /**
  * Liste des alias XStream pour les conversions XML et JSON.

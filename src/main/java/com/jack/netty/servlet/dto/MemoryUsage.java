@@ -5,7 +5,7 @@
  * @Create In 2015年10月28日 下午2:52:09
  * TODO
  */
-package com.wfj.netty.servlet.dto;
+package com.jack.netty.servlet.dto;
 
 /**
  * @Class Name MemUsage

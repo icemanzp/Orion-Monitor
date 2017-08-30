@@ -5,11 +5,10 @@
  * @Create In 2015年8月25日 上午11:43:13
  * TODO
  */
-package com.wfj.netty.servlet.watcher;
+package com.jack.netty.servlet.watcher;
 
+import com.jack.netty.servlet.infc.Health;
 import org.apache.zookeeper.AsyncCallback.StringCallback;
-
-import com.wfj.netty.servlet.infc.Health;
 
 /**
  * @Class Name StringCallBackMethod

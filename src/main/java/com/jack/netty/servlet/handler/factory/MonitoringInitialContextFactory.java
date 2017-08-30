@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.handler.factory;
+package com.jack.netty.servlet.handler.factory;
 
 import java.util.Hashtable;
 
@@ -24,7 +24,7 @@ import javax.naming.NamingException;
 import javax.naming.NoInitialContextException;
 import javax.naming.spi.InitialContextFactory;
 
-import com.wfj.netty.servlet.handler.wrapper.JdbcWrapper;
+import com.jack.netty.servlet.handler.wrapper.JdbcWrapper;
 
 /**
  * Expérimental: Factory d'InitialContext JNDI interposant des proxy du contexte,

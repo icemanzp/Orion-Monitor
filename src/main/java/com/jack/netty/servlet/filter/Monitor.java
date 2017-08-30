@@ -5,7 +5,7 @@
  * @Create In 2016年2月15日 下午2:52:09
  * TODO
  */
-package com.wfj.netty.servlet.filter;
+package com.jack.netty.servlet.filter;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;
@@ -22,20 +22,20 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.wfj.netty.servlet.conf.Constant;
+import com.jack.netty.servlet.MonitorChecker;
+import com.jack.netty.servlet.conf.EnvPropertyConfig;
+import com.jack.netty.servlet.conf.SystemPropertyConfig;
+import com.jack.netty.servlet.dto.JavaInformations;
+import com.jack.netty.servlet.dto.ThreadInformations;
+import com.jack.netty.servlet.handler.factory.SLACountManager;
+import com.jack.netty.servlet.handler.wrapper.RequestWrapper;
+import com.jack.netty.servlet.infc.Health;
+import com.jack.netty.servlet.conf.Constant;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.wfj.netty.servlet.MonitorChecker;
-import com.wfj.netty.servlet.conf.EnvPropertyConfig;
-import com.wfj.netty.servlet.conf.Parameters;
-import com.wfj.netty.servlet.conf.SystemPropertyConfig;
-import com.wfj.netty.servlet.dto.JavaInformations;
-import com.wfj.netty.servlet.dto.ThreadInformations;
-import com.wfj.netty.servlet.handler.factory.SLACountManager;
-import com.wfj.netty.servlet.handler.wrapper.JdbcWrapper;
-import com.wfj.netty.servlet.handler.wrapper.RequestWrapper;
-import com.wfj.netty.servlet.infc.Health;
+import com.jack.netty.servlet.conf.Parameters;
+import com.jack.netty.servlet.handler.wrapper.JdbcWrapper;
 
 /**
  * @Class Name Monitor

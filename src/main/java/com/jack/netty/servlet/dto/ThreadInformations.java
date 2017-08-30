@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.dto;
+package com.jack.netty.servlet.dto;
 
 import java.io.Serializable;
 import java.lang.management.ManagementFactory;

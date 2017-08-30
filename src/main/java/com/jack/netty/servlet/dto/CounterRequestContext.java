@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.dto;
+package com.jack.netty.servlet.dto;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -25,7 +25,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.wfj.netty.servlet.dto.CounterRequest.ICounterRequestContext;
+import com.jack.netty.servlet.dto.CounterRequest.ICounterRequestContext;
 
 /**
  * Contexte d'une requête pour un compteur (non synchronisé). Le contexte sera

@@ -5,7 +5,7 @@
  * @Create In 2015年8月25日 上午11:48:34
  * TODO
  */
-package com.wfj.netty.servlet.infc;
+package com.jack.netty.servlet.infc;
 
 import org.apache.zookeeper.ZooKeeper;
 

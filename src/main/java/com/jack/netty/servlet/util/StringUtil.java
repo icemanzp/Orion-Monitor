@@ -7,7 +7,7 @@
  *
 */
 
-package com.wfj.netty.servlet.util;
+package com.jack.netty.servlet.util;
 
 import java.io.UnsupportedEncodingException;
 

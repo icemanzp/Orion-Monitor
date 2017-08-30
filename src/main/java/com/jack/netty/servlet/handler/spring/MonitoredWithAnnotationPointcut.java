@@ -1,4 +1,4 @@
-package com.wfj.netty.servlet.handler.spring;
+package com.jack.netty.servlet.handler.spring;
 
 import java.lang.reflect.Method;
 
@@ -6,7 +6,7 @@ import org.springframework.aop.ClassFilter;
 import org.springframework.aop.MethodMatcher;
 import org.springframework.aop.Pointcut;
 
-import com.wfj.netty.servlet.infc.MonitoredWithSpring;
+import com.jack.netty.servlet.infc.MonitoredWithSpring;
 
 /**
  * Pointcut that identifies methods/classes with the {@link MonitoredWithSpring} annotation.

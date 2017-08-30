@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.handler.spring;
+package com.jack.netty.servlet.handler.spring;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -23,14 +23,13 @@ import java.util.Set;
 
 import javax.sql.DataSource;
 
+import com.jack.netty.servlet.conf.Parameters;
+import com.jack.netty.servlet.handler.wrapper.JdbcWrapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.core.PriorityOrdered;
 import org.springframework.jndi.JndiObjectFactoryBean;
-
-import com.wfj.netty.servlet.conf.Parameters;
-import com.wfj.netty.servlet.handler.wrapper.JdbcWrapper;
 
 /**
  * Post-processor Spring pour une éventuelle DataSource défini dans le fichier xml Spring.

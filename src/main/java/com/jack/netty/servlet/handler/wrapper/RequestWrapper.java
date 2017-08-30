@@ -5,7 +5,7 @@
  * @Create In 2016年7月26日 下午4:59:34
  * TODO
  */
-package com.wfj.netty.servlet.handler.wrapper;
+package com.jack.netty.servlet.handler.wrapper;
 
 import java.io.IOException;
 
@@ -16,10 +16,10 @@ import javax.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.wfj.netty.servlet.conf.Parameters;
-import com.wfj.netty.servlet.dto.Counter;
-import com.wfj.netty.servlet.dto.CounterError;
-import com.wfj.netty.servlet.dto.ThreadInformations;
+import com.jack.netty.servlet.conf.Parameters;
+import com.jack.netty.servlet.dto.Counter;
+import com.jack.netty.servlet.dto.CounterError;
+import com.jack.netty.servlet.dto.ThreadInformations;
 
 /**
  * @Class Name RequestWrapper

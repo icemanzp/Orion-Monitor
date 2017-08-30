@@ -5,7 +5,7 @@
  * @Create In 2016年3月29日 下午1:18:20
  * TODO
  */
-package com.wfj.netty.servlet.dto;
+package com.jack.netty.servlet.dto;
 
 import java.util.ArrayList;
 import java.util.List;

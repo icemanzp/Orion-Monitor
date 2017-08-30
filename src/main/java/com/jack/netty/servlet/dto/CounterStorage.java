@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.dto;
+package com.jack.netty.servlet.dto;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -33,10 +33,10 @@ import java.util.List;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
-import com.wfj.netty.servlet.conf.Parameter;
-import com.wfj.netty.servlet.conf.Parameters;
-import com.wfj.netty.servlet.handler.wrapper.CounterResponseStream;
-import com.wfj.netty.servlet.util.TransportFormat;
+import com.jack.netty.servlet.conf.Parameter;
+import com.jack.netty.servlet.handler.wrapper.CounterResponseStream;
+import com.jack.netty.servlet.conf.Parameters;
+import com.jack.netty.servlet.util.TransportFormat;
 
 /**
  * Classe chargée de l'enregistrement et de la lecture d'un counter.

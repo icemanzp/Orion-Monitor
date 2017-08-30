@@ -5,13 +5,13 @@
  * @Create In 2016年7月26日 下午3:50:26
  * TODO
  */
-package com.wfj.netty.servlet.util;
+package com.jack.netty.servlet.util;
 
+import com.jack.netty.servlet.conf.EnvPropertyConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.wfj.netty.servlet.conf.Constant;
-import com.wfj.netty.servlet.conf.EnvPropertyConfig;
+import com.jack.netty.servlet.conf.Constant;
 
 /**
  * @Class Name HTTPServletUtil

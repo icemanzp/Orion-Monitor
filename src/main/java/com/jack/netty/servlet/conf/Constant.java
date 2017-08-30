@@ -5,7 +5,7 @@
  * @Create In 2015年8月27日 上午10:21:27
  * TODO
  */
-package com.wfj.netty.servlet.conf;
+package com.jack.netty.servlet.conf;
 
 /**
  * @Class Name Constant

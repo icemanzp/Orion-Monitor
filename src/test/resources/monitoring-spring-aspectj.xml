@@ -11,10 +11,10 @@
 		<aop:advisor advice-ref="monitoringAdvice" pointcut-ref="monitoringPointcut" />
 	</aop:config>
 
-	<bean id="monitoringAdvice" class="com.wfj.netty.servlet.handler.spring.MonitoringSpringInterceptor" />
-	<bean id="monitoringPointcut" class="com.wfj.netty.servlet.handler.spring.MonitoredWithAnnotationPointcut" />
+	<bean id="monitoringAdvice" class="com.jack.netty.servlet.handler.spring.MonitoringSpringInterceptor" />
+	<bean id="monitoringPointcut" class="com.jack.netty.servlet.handler.spring.MonitoredWithAnnotationPointcut" />
 
-	<bean id="springDataSourceBeanPostProcessor" class="com.wfj.netty.servlet.handler.spring.SpringDataSourceBeanPostProcessor">
+	<bean id="springDataSourceBeanPostProcessor" class="com.jack.netty.servlet.handler.spring.SpringDataSourceBeanPostProcessor">
 		<!--
 		<property name="excludedDatasources">
 			<set>

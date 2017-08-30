@@ -15,13 +15,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.handler.adapter;
+package com.jack.netty.servlet.handler.adapter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
+import com.jack.netty.servlet.conf.Parameter;
+import com.jack.netty.servlet.dto.JobInformations;
 import org.quartz.CronTrigger;
 import org.quartz.JobDetail;
 import org.quartz.JobExecutionContext;
@@ -32,10 +34,8 @@ import org.quartz.SimpleTrigger;
 import org.quartz.Trigger;
 import org.quartz.impl.StdSchedulerFactory;
 
-import com.wfj.netty.servlet.conf.Parameter;
-import com.wfj.netty.servlet.conf.Parameters;
-import com.wfj.netty.servlet.dto.JobInformations;
-import com.wfj.netty.servlet.handler.listener.JobGlobalListener;
+import com.jack.netty.servlet.conf.Parameters;
+import com.jack.netty.servlet.handler.listener.JobGlobalListener;
 
 /**
  * Classe permettant de fournir une API adaptée aux différentes versions de Quartz.<br/>

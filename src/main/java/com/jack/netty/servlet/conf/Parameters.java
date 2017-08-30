@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.conf;
+package com.jack.netty.servlet.conf;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -35,7 +35,7 @@ import java.util.Properties;
 import javax.servlet.FilterConfig;
 import javax.servlet.ServletContext;
 
-import com.wfj.netty.servlet.util.TransportFormat;
+import com.jack.netty.servlet.util.TransportFormat;
 
 
 /**

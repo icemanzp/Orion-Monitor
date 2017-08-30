@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.handler.wrapper;
+package com.jack.netty.servlet.handler.wrapper;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
@@ -27,9 +27,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletRequestWrapper;
 import javax.servlet.http.HttpServletResponse;
 
-import com.wfj.netty.servlet.conf.Parameter;
-import com.wfj.netty.servlet.conf.Parameters;
-import com.wfj.netty.servlet.dto.Counter;
+import com.jack.netty.servlet.conf.Parameter;
+import com.jack.netty.servlet.conf.Parameters;
+import com.jack.netty.servlet.dto.Counter;
 
 /**
  * Wrapping de l'interface javax.servlet.RequestDispatcher pour avoir les temps moyens de rendu

@@ -5,13 +5,13 @@
  * @Create In 2015年9月6日 下午4:36:39
  * TODO
  */
-package com.wfj.netty.servlet.handler.factory;
+package com.jack.netty.servlet.handler.factory;
 
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 
-import com.wfj.netty.servlet.conf.SystemPropertyConfig;
+import com.jack.netty.servlet.conf.SystemPropertyConfig;
 
 /**
  * @Class Name SLACountManager

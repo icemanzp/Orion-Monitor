@@ -5,15 +5,15 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
-	<bean id="monitoringAdvisor" class="com.wfj.netty.servlet.handler.spring.MonitoringSpringAdvisor">
+	<bean id="monitoringAdvisor" class="com.jack.netty.servlet.handler.spring.MonitoringSpringAdvisor">
 		<property name="pointcut">
-			<bean class="com.wfj.netty.servlet.handler.spring.MonitoredWithAnnotationPointcut"/>
+			<bean class="com.jack.netty.servlet.handler.spring.MonitoredWithAnnotationPointcut"/>
 		</property>
 	</bean>
 
 	<bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"/>
 
-	<bean id="springDataSourceBeanPostProcessor" class="com.wfj.netty.servlet.handler.spring.SpringDataSourceBeanPostProcessor">
+	<bean id="springDataSourceBeanPostProcessor" class="com.jack.netty.servlet.handler.spring.SpringDataSourceBeanPostProcessor">
 		<!--
 		<property name="excludedDatasources">
 			<set>
@@ -24,7 +24,7 @@
  	</bean>
 
 	<!--
- 	<bean id="wrappedDataSource" class="com.wfj.netty.servlet.handler.factory.SpringDataSourceFactoryBean">
+ 	<bean id="wrappedDataSource" class="SpringDataSourceFactoryBean">
 		<property name="targetName" value="targetDataSource" />
 	</bean>
 	-->

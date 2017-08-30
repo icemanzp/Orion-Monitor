@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.handler.wrapper;
+package com.jack.netty.servlet.handler.wrapper;
 
 import java.io.Serializable;
 import java.lang.reflect.InvocationHandler;
@@ -41,10 +41,10 @@ import javax.naming.NamingException;
 import javax.servlet.ServletContext;
 import javax.sql.DataSource;
 
-import com.wfj.netty.servlet.conf.Parameter;
-import com.wfj.netty.servlet.conf.Parameters;
-import com.wfj.netty.servlet.dto.ConnectionInformations;
-import com.wfj.netty.servlet.dto.Counter;
+import com.jack.netty.servlet.conf.Parameter;
+import com.jack.netty.servlet.conf.Parameters;
+import com.jack.netty.servlet.dto.ConnectionInformations;
+import com.jack.netty.servlet.dto.Counter;
 
 /**
  * 这个类是构建代理数据源或*连接JDBC有用。*和结果，

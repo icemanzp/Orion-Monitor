@@ -15,14 +15,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.handler.factory;
+package com.jack.netty.servlet.handler.factory;
 
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.FactoryBean;
 import org.springframework.beans.factory.config.AbstractFactoryBean;
 
-import com.wfj.netty.servlet.handler.wrapper.JdbcWrapper;
+import com.jack.netty.servlet.handler.wrapper.JdbcWrapper;
 
 /**
  * Spring {@link FactoryBean} for wrapping datasources with monitoring proxy.
@@ -37,7 +37,7 @@ public class SpringDataSourceFactoryBean extends AbstractFactoryBean {
 
 	// exemple :
 	// <bean id="wrappedDataSource"
-	// class="com.wfj.netty.servlet.handler.factory.SpringDataSourceFactoryBean">
+	// class="SpringDataSourceFactoryBean">
 	// <property name="targetName" value="targetDataSource" />
 	// </bean>
 	//

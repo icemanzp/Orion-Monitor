@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.dto;
+package com.jack.netty.servlet.dto;
 
 import java.io.Serializable;
 import java.sql.Connection;
@@ -37,10 +37,10 @@ import java.util.ResourceBundle;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 
-import com.wfj.netty.servlet.conf.Parameter;
-import com.wfj.netty.servlet.conf.Parameters;
-import com.wfj.netty.servlet.handler.wrapper.JdbcWrapper;
-import com.wfj.netty.servlet.util.I18N;
+import com.jack.netty.servlet.conf.Parameter;
+import com.jack.netty.servlet.conf.Parameters;
+import com.jack.netty.servlet.handler.wrapper.JdbcWrapper;
+import com.jack.netty.servlet.util.I18N;
 
 /**
  * 数据库的资料。

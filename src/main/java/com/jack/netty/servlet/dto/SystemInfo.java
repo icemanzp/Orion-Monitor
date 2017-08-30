@@ -5,7 +5,7 @@
  * @Create In 2015年8月26日 下午7:00:31
  * TODO
  */
-package com.wfj.netty.servlet.dto;
+package com.jack.netty.servlet.dto;
 
 import java.util.List;
 

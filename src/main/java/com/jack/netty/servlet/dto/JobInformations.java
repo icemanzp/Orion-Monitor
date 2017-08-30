@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.dto;
+package com.jack.netty.servlet.dto;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -34,8 +34,8 @@ import org.quartz.SimpleTrigger;
 import org.quartz.Trigger;
 import org.quartz.impl.SchedulerRepository;
 
-import com.wfj.netty.servlet.conf.Parameters;
-import com.wfj.netty.servlet.handler.adapter.QuartzAdapter;
+import com.jack.netty.servlet.conf.Parameters;
+import com.jack.netty.servlet.handler.adapter.QuartzAdapter;
 
 /**
  * Informations sur un job.

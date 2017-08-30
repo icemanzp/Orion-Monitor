@@ -5,7 +5,7 @@
  * @Create In 2015年8月26日 下午9:15:42
  * TODO
  */
-package com.wfj.netty.servlet.dto;
+package com.jack.netty.servlet.dto;
 
 /**
  * @Class Name GCInfo

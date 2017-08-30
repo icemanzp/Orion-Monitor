@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.util;
+package com.jack.netty.servlet.util;
 
 import java.awt.datatransfer.DataFlavor;
 import java.io.BufferedInputStream;
@@ -32,11 +32,11 @@ import java.io.Serializable;
 import java.util.Locale;
 import java.util.Map;
 
+import com.jack.netty.servlet.dto.Counter;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.converters.collections.MapConverter;
 import com.thoughtworks.xstream.io.json.JsonHierarchicalStreamDriver;
 import com.thoughtworks.xstream.io.xml.CompactWriter;
-import com.wfj.netty.servlet.dto.Counter;
 
 /**
  * Liste des formats de transport entre un serveur de collecte et une
@@ -121,7 +121,7 @@ public enum TransportFormat {
 				// sinon format xml, utilise la dépendance XPP3 par défaut
 				xstream = new XStream();
 			}
-			for (final Map.Entry<String, Class<?>> entry : com.wfj.netty.servlet.util.XStreamAlias.getMap().entrySet()) {
+			for (final Map.Entry<String, Class<?>> entry : XStreamAlias.getMap().entrySet()) {
 				xstream.alias(entry.getKey(), entry.getValue());
 			}
 			final MapConverter mapConverter = new MapConverter(xstream.getMapper()) {

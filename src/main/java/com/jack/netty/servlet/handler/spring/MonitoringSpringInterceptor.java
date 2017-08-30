@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.handler.spring;
+package com.jack.netty.servlet.handler.spring;
 
 import java.io.Serializable;
 
@@ -23,11 +23,11 @@ import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 import org.springframework.aop.support.AopUtils;
 
-import com.wfj.netty.servlet.conf.Parameter;
-import com.wfj.netty.servlet.conf.Parameters;
-import com.wfj.netty.servlet.dto.Counter;
-import com.wfj.netty.servlet.handler.proxy.MonitoringProxy;
-import com.wfj.netty.servlet.infc.MonitoredWithSpring;
+import com.jack.netty.servlet.conf.Parameter;
+import com.jack.netty.servlet.conf.Parameters;
+import com.jack.netty.servlet.dto.Counter;
+import com.jack.netty.servlet.handler.proxy.MonitoringProxy;
+import com.jack.netty.servlet.infc.MonitoredWithSpring;
 
 /**
  * Method interceptor that measures the duration of the intercepted call.

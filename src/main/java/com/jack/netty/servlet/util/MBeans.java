@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.util;
+package com.jack.netty.servlet.util;
 
 import java.lang.management.ManagementFactory;
 import java.util.ArrayList;
@@ -41,8 +41,8 @@ import javax.management.QueryExp;
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.TabularData;
 
-import com.wfj.netty.servlet.dto.MBeanNode;
-import com.wfj.netty.servlet.dto.MBeanNode.MBeanAttribute;
+import com.jack.netty.servlet.dto.MBeanNode;
+import com.jack.netty.servlet.dto.MBeanNode.MBeanAttribute;
 
 /**
  * Objet récupérant une instance de MBeanServer lors de sa construction

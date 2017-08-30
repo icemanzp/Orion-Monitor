@@ -1,4 +1,4 @@
-package com.wfj.netty.servlet.infc;
+package com.jack.netty.servlet.infc;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

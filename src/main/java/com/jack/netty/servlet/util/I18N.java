@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wfj.netty.servlet.util;
+package com.jack.netty.servlet.util;
 
 import java.io.IOException;
 import java.io.Writer;
@@ -28,8 +28,8 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 import java.util.TimeZone;
 
-import com.wfj.netty.servlet.conf.Parameter;
-import com.wfj.netty.servlet.conf.Parameters;
+import com.jack.netty.servlet.conf.Parameter;
+import com.jack.netty.servlet.conf.Parameters;
 
 /**
  * Classe de gestion des traductions et de l'internationalisation (formats de
